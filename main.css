@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: relative;
+   display: block;
+   box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: auto;
+    
+    
+    
+}
+
+
+
+body{
+background-color:#fefff6 ;
+
+}
+
+
+
+
+/* 
+.head-img{
+    max-width: 100%;
+    
+    max-height: 100%;
+} */
+
+
+
+.navbar .container-fluid{
+  margin: 0;
+    display: block;
+   box-sizing: border-box;
+    padding: 0;
+   
+    
+  
+  
+
+}
+
+.imghold{
+    position: relative;
+    background-image:url("img/les.png") ;
+    width: 100%;
+    min-height: 700px;
+    background-size:100% 700px ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+   z-index: 1;
+}
+
+
+.imghold::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+
+
+.navbar .imghold .container{
+    position: relative;
+    display: block;
+  
+   max-width: 30%;
+   z-index: 9;
+   
+}
+
+
+.navbar .imghold .container h3{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 97px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FEFFF6;
+}
+
+
+.navbar .imghold .container h6{
+
+
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 31px;
+display: flex;
+align-items: center;
+
+color: #FEFFF6;
+}
+
+
+
+@media(max-width:1100px){
+    .navbar .imghold .container h3{
+        font-size: 65px;
+        line-height: 78px;
+    }
+
+    .navbar .imghold .container h6{
+    font-size: 20px;
+line-height: 25px;
+    }
+
+
+    .imghold{
+        
+        min-height: 600px;
+        background-size: 100% 600px;
+    }
+}
+
+@media(max-width:860px){
+    .navbar .imghold .container h3{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .navbar .imghold .container h6{
+    font-size: 15px;
+line-height: 20px;
+    }
+
+
+    .imghold{
+        min-height: 500px;
+        
+
+        background-size: 100% 500px;
+    }
+}
+
+
+
+@media(max-width:726px){
+    .navbar .imghold .container h3{
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .navbar .imghold .container h6{
+    font-size: 12px;
+line-height: 15px;
+    }
+
+
+    .imghold{
+        
+
+        min-height: 400px;
+        background-size: 100% 400px;
+    }
+}
+
+
+@media(max-width:600px){
+    .navbar .imghold .container h3{
+        font-size: 28px;
+        line-height: 39px;
+    }
+
+    .navbar .imghold .container h6{
+    font-size: 9px;
+line-height: 13px;
+    }
+
+
+    .imghold{
+        
+ 
+        min-height: 300px;
+        background-size: 100% 300px;
+    }
+
+
+
+    #dragndrop button img{
+        display: block;
+    box-sizing: border-box;
+        width: 150px;
+        height:150px;
+    }
+
+}
+
+
+@media(max-width:448px){
+    .navbar .imghold .container h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .navbar .imghold .container h6{
+    font-size: 7px;
+line-height: 10px;
+    }
+
+
+    .imghold{
+        
+        min-height: 200px;
+        background-size: 100% 200px;
+    }
+
+
+    #wave {
+    margin-top:10px;
+         
+    }
+}
+
+
+@media(max-width:360px){
+    .navbar .imghold .container h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .navbar .imghold .container h6{
+    font-size: 5px;
+line-height: 8px;
+    }
+
+
+    .imghold{
+        
+
+        min-height: 100px;
+        background-size: 100% 100px;
+    }
+
+    #wave{
+        bottom: -20px;
+    }
+}
+
+
+#wave{
+    position: absolute;
+    padding: 0;
+    bottom: -10%;
+    border-bottom:0px solid #fefff6 ;
+   left: 0px;
+    z-index: 100000;
+}
+
+#wave img{
+    height: 100%;
+     width: 100%;
+     border-bottom-color:#fefff6 ;
+}
+
+
+#dragndrop {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 5% !important;
+    padding-left: 0px;
+}
+
+#dragndrop .container{
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+#dragndrop button img{
+    display: block;
+    box-sizing: border-box;
+    max-width: 300px;
+    max-height:300px ;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
